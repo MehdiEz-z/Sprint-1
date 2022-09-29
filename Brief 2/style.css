@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 15px;
+    background: url('Backgr.jpg');
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+header .container{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+}
+li{
+    list-style: none;
+}
+.nav-H ul{
+    display: flex;
+    margin-left: 25px;
+}
+.nav-H a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 750;
+    padding: 20px;
+}
+.nav-H a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.nav-B ol{
+    display: flex;
+    margin: 25px 0 0 20px;
+}
+.nav-B a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 550;
+}
+.nav-B a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+.nav-B span{
+    color: white;
+    padding: 0 15px 0 15px;
+}
+main{
+    margin: 30px 0 0 20px;
+}
+main h1{
+    color: #cc2d0d;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p{
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    display: flex;
+}
+section div{
+    border: 3px solid white;
+    width: 250px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 22px;
+    margin-right: 15px;
+    background-color: black;
+}
+section div img{
+    width: 90%;
+    margin: 5%;
+}
+section div h1{
+    color: white;
+    font-family: cohaerentia;
+    margin-bottom: 25px;
+}
+.t1{
+    color: darkgray;
+}
+.t2,a{
+    color: #cc2d0d;
+}
+.t3{
+    color: antiquewhite;
+}
