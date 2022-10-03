@@ -76,7 +76,7 @@ section{
 }
 section div{
     border: 3px solid white;
-    width: 250px;
+    width: 350px;
     margin-top: 50px;
     text-align: center;
     line-height: 22px;
@@ -140,12 +140,13 @@ section div h3{
     }
     section{
         flex-wrap: wrap;
+        justify-content: center;
     }
     section div{
-        width: 100%;
+        width: 80%;
     }
     section div h3{
-        font-size: 50px;
+        font-size: 40px;
     }
     .t1{
         font-size: 20px;
@@ -178,5 +179,17 @@ section div h3{
     }
     section div{
         margin-top: 25px;
+    }
+}
+@media print {
+    body header{
+        display: none;
+    }
+    section{
+        flex-wrap: wrap;
+    }
+    section div{
+        width: 25%;
+        border: 1px solid black;
     }
 }
