@@ -69,6 +69,7 @@ main p{
     line-height: 20px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
 }
 section{
     display: flex;
@@ -99,4 +100,83 @@ section div h3{
 }
 .t3{
     color: antiquewhite;
+}
+
+@media screen and (max-width: 698px){
+    body{
+    margin: 10px; 
+    padding: 0%;   
+    }
+    header .grp{
+        display: block;
+    }
+    .logo{
+        width: 100%;  
+        margin-bottom: 20px;   
+    }
+    .nav-H ul{
+        justify-content: space-around;
+        margin: 0;
+        padding: 0 30px;
+    }
+    .nav-H a{
+        font-size: 17px;
+        padding: 0px;
+    }
+    .nav-B ol{
+        justify-content: center;
+        margin-left: 0;
+    }
+    .nav-B a{
+        font-size: 15px;
+        color: bisque;
+    }
+    main h1{
+        font-size: 35px;
+    }
+    main p{
+        font-size: 15px;
+        width: auto;
+    }
+    section{
+        flex-wrap: wrap;
+    }
+    section div{
+        width: 100%;
+    }
+    section div h3{
+        font-size: 50px;
+    }
+    .t1{
+        font-size: 20px;
+    }
+    .t2,a{
+        font-size: 20px;
+    }
+    .t3{
+        font-size: 20px;    
+    }
+}
+@media screen and (max-width: 530px){
+    .nav-H a{
+        font-size: 10px;
+    }
+    .nav-B ol{
+        margin: 10px;
+    }
+    .nav-B a{
+        font-size: 9px;
+    }
+    main{
+        margin: 20px 0 0 20px;
+    }
+    main h1{
+        font-size: 15px;
+    }
+     main p{
+        font-size: 10px;
+    }
+    section div{
+        margin-top: 25px;
+    }
 }
